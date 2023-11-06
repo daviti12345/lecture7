@@ -1,0 +1,99 @@
+body {
+    background-image: url("../images/pic1.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.boat {
+    width: 150px;
+    height: 150px;
+    margin-top: 650px;
+    position: absolute;
+    animation: boat 40s infinite;
+    z-index: 2;
+}
+
+@keyframes boat {
+    0% {left: 10px}
+    100% {left: 1500px }
+}
+.plane {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    animation: plane 35s infinite;
+    margin-top: 170px;
+    z-index: 1;
+}
+@keyframes plane {
+      0% {left: 1350px}
+      100% {left: -300px }
+}
+
+.sun1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: sun1 35s infinite;
+    margin-top: 25px;
+    margin-left: 1100px;
+}
+@keyframes sun1 {
+      0% {left: 12px;top: 100px}
+      100% {left:100px;top:100px }
+}
+.cloud {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation: cloud 40s infinite;
+    margin-top: 25px;
+}
+@keyframes cloud {
+      0% {left: 0px}
+      100% {left:1400px }
+}
+.birds {
+    width: 300px;
+    height:150px;
+    position: absolute;
+    animation: birds 35s infinite;
+}
+@keyframes birds {
+      0% {left:1270px;top: 300px}
+      40% {top: 350px}
+      100% {left:-250px;top:350px }
+}
+.cisartyela {
+    width: 300px;
+    height:150px;
+    position: absolute;
+    animation: cisartyela 10s infinite;
+}
+@keyframes cisartyela {
+    0% {left:1200px;top: 300px}
+    100% {left:1500px;top:200px }
+}
+.house {
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(-1deg);
+    animation: house 15s infinite;
+}
+@keyframes house {
+    0% {left:120px;top: 550px}
+    100% {left:150px;top:550px }
+}
+
+.people {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    animation: people 15s infinite;
+}
+@keyframes people {
+    0% {left:80px;top: 610px}
+    100% {left:100px;top:610px }
+}
