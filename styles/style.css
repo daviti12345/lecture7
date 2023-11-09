@@ -12,11 +12,12 @@ body {
     position: absolute;
     animation: boat 40s infinite;
     z-index: 2;
+    animation-timing-function: linear;
 }
 
 @keyframes boat {
-    0% {left: 10px}
-    100% {left: 1500px }
+    from {left: 10px;}
+    to {left: 1500px ;}
 }
 .plane {
     width: 250px;
@@ -25,6 +26,7 @@ body {
     animation: plane 35s infinite;
     margin-top: 170px;
     z-index: 1;
+    animation-timing-function: linear;
 }
 @keyframes plane {
       0% {left: 1350px}
@@ -38,6 +40,7 @@ body {
     animation: sun1 35s infinite;
     margin-top: 25px;
     margin-left: 1100px;
+    animation-timing-function: linear;
 }
 @keyframes sun1 {
       0% {left: 12px;top: 100px}
@@ -49,6 +52,7 @@ body {
     position: absolute;
     animation: cloud 40s infinite;
     margin-top: 25px;
+    animation-timing-function: linear;
 }
 @keyframes cloud {
       0% {left: 0px}
@@ -70,6 +74,7 @@ body {
     height:150px;
     position: absolute;
     animation: cisartyela 10s infinite;
+    animation-timing-function: linear;
 }
 @keyframes cisartyela {
     0% {left:1200px;top: 300px}
@@ -81,6 +86,7 @@ body {
     position: absolute;
     transform: rotate(-1deg);
     animation: house 15s infinite;
+    animation-timing-function: linear;
 }
 @keyframes house {
     0% {left:120px;top: 550px}
@@ -92,6 +98,7 @@ body {
     height: 60px;
     position: absolute;
     animation: people 15s infinite;
+    animation-timing-function: linear;
 }
 @keyframes people {
     0% {left:80px;top: 610px}
